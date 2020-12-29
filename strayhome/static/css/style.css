@@ -1,0 +1,364 @@
+body {
+	font-size: 11pt;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 20pt;
+	font-weight: 800;
+}
+
+body {
+	background: url('../img/bgs/bg1.jpeg') 0 0/auto auto;
+}
+
+main {
+	margin-top: 75px;
+}
+
+/*--Навигационное меню-------------------------------*/
+.navbar {
+	background-color: #ffc107d4;
+	border-radius: 5px;
+	font-size: 14pt;
+	margin: 10px auto;
+    max-width: 800px;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.nav-item.active {
+	font-weight: 800;
+}
+/*--Конец Навигационное меню-------------------------*/
+
+/*--Форма денежного перевода-------------------------*/
+.donate {
+	align-content: flex-start;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    min-height: 85vh;
+}
+
+#donate-amn {
+	height: 28px;
+	width: 126px;
+}
+
+.donate-info p {
+	font-size: 14pt;
+}
+
+.donate-form {
+    border: solid 1px lightgrey;
+    box-shadow: 0px 2px 2px 0px rgba(65, 34, 80, 0.1);
+    height: 300px;
+    padding: 20px;
+    margin-top: 15px;
+    text-align: start;
+	width: 450px;
+}
+
+.donate-form label {
+	color: grey;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.donate-form textarea {
+    border: solid 1px lightgrey;
+	resize: none;
+}
+
+.donate-form textarea:focus {
+	outline: none !important;
+    border:1px solid #ffcb30;
+    box-shadow: 0 0 0 1px #ffcb30;
+}
+
+.donate-val {
+	font-size: 18px;
+}
+
+.donate-form .btn {
+	margin-top: 20px;
+    font-size: 11pt;
+    background-color: #ffcf2a;
+    padding: 5px 15px;
+}
+
+.donate-form .btn:focus {
+	box-shadow: 0 0 0 .2rem rgba(253, 249, 3, 0.35);
+}
+
+.donate-form .form-control {
+    border-radius: 0;
+}
+
+.donate-form .form-control:focus {
+	border:1px solid #ffcb30;
+	box-shadow: 0 0 0 1px #ffcb30;
+}
+
+.donate-form .input-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.donate-form .input-hidden {
+  display: none;
+}
+
+.donate-form .pay-descr {
+	margin-top: 16px;
+}
+
+.donate-form .pay-amn {
+	width: 136px;
+}
+
+.donate-form .pay-type {
+	flex-direction: row;
+	height: 28px;
+	width: 124px;
+}
+
+.donate-form .pay-type label {
+	border: solid 1px lightgrey;
+	margin: 0;
+}
+
+.donate-form .pay-type label:nth-of-type(1) {
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.donate-form .pay-type label:nth-of-type(2) {
+	margin: 0 -1px;
+}
+
+.donate-form .pay-type label:nth-of-type(3) {
+	border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.donate-form .pay-type input[type=radio]:checked + label>img {
+	background-color: #ffe79e;
+}
+
+.donate-form .pay-wrapper {
+	align-items: flex-end;
+	display: flex;
+    flex-direction: row;
+	margin-top: 7px;
+}
+
+.donate-info {
+	font-size: 12pt;
+	line-height: 2rem;
+	margin-top: 35px;
+    padding: 0 10px;
+    text-align: center;	
+}
+/*--Конец Форма денежного перевода-------------------*/
+
+/*--Галерея питомцев---------------------------------*/
+.pet-list {
+	background-color: white;
+    padding: 10px;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+}
+
+.gal-fltr {
+	display: flex;
+	margin: 5px 0 10px;
+	flex-wrap: wrap;
+}
+
+.gal-fltr .custom-select {
+	height: 28px;
+	padding: 0 10px;
+}
+
+.gal-fltr .input-group {
+	margin: 0 10px 5px 0;
+	width: 166px;
+}
+
+.gal-fltr .input-group-text {
+	color: black;
+	background-color: lightgrey;
+	font-size: inherit;
+	height: 28px;
+}
+
+.gal-fltr .input-group-text:hover {
+	background-color: #efefef;
+}
+
+.gal-fltr .btn {
+	background-color: lightgrey;
+	font-size: inherit;
+	height: 28px;
+	margin-bottom: 5px;
+	padding: 0;
+	width: 110px;
+}
+
+.gal-fltr .btn:hover {
+	background-color: #efefef;
+}
+
+.galery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-rows: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.gal-item {
+    align-items: flex-end;
+    display: flex;
+	height:190px;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.gal-item:hover {
+    text-decoration: none;
+}
+
+.gal-item-lbl {
+	background-color: #ffc107d4;
+	border-top-left-radius: 5px;
+    color: black;
+    height: 24px;
+    padding: 0 10px;
+}
+/*--Конец Галерея питомцев---------------------------*/
+
+/*--Карточка Питомца---------------------------------*/
+.pet-detail {
+	align-content: flex-start;
+	background-color: white;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 800px;
+    min-height: 85vh;
+    padding: 15px;
+}
+
+.pet-info {
+	flex: 1;
+	min-width: 300px;
+}
+
+.pet-photo {
+	height: 300px;
+	margin: 0 auto 10px;
+	width: 315px;
+}
+
+.pet-props tr td:nth-child(1) {
+	width: 170px;
+}
+/*--Конец Карточка Питомца---------------------------*/
+
+/*--Контакты-----------------------------------------*/
+.contact {
+	background-color: white;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+	margin: 0 auto;
+	max-width: 800px;
+    min-height: 85vh;
+    padding: 15px;
+}
+
+.contact-map {
+	height: 348px;
+	overflow: auto;
+	max-width: 770px;
+	text-align: center;
+}
+
+.contact-map a {
+	text-decoration: none;
+}
+
+.contact-map a img {
+	border: solid 1px lightgrey;
+}
+
+.contact-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 16px;
+}
+
+.contact-row p:last-child {
+	margin: 0;
+}
+
+.contact-type {
+	font-weight: 800;
+	width: 112px;
+}
+
+.contact-val {
+	flex: 1;
+	min-width: 280px;
+}
+/*--Конец Контакты-----------------------------------*/
+
+/*--Тех.инфо-----------------------------------------*/
+.tech-detail {
+	margin: 0 auto;
+}
+
+.tech-info {
+	background-color: white;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+	margin: 0 auto;
+	max-width: 800px;
+    min-height: 85vh;
+    padding: 15px;
+}
+
+.tech-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 16px auto 0;
+}
+
+.tech-type {
+	font-weight: 800;
+	width: 180px;
+}
+
+.tech-val {
+	flex: 1;
+    min-width: 220px;
+}
+/*--Конец Тех.инфо-----------------------------------*/

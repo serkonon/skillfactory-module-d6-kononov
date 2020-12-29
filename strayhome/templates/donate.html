@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+	{% load static %}
+	<div class="donate">
+		<div class="donate-form">
+			<form action="#">
+				<div class="input-group pay-goal">
+					<label>
+						Назначение перевода
+					</label>
+					<div class="donate-val">
+						Добровольное пожертвование
+					</div>
+				</div>
+				<div class="input-group pay-descr">
+					<label for="donate-comm">Комментарий</label>
+					<textarea id="donate-comm" name="donate-comm" rows="2"></textarea>
+				</div>
+				<div class="pay-wrapper">
+					<div class="input-group pay-amn">
+						<label for="donate-amn">Сумма</label>
+						<input type="text" id="donate-amn" class="form-control" />
+					</div>
+					<div class="input-group pay-type">
+						<input type="radio" name="pay-system" id="yandex" class="input-hidden" />
+						<label for="yandex">
+							 <img src="{% static 'img/pays/yandex.png' %}" />
+						</label>
+						<input type="radio" name="pay-system" id="visa" class="input-hidden" />
+						<label for="visa">
+							<img src="{% static 'img/pays/visa.png' %}" />
+						</label>
+						<input type="radio" name="pay-system" id="mobile" class="input-hidden" />
+						<label for="mobile">
+							<img src="{% static 'img/pays/mobile.png' %}" />
+						</label>
+					</div>
+				</div>
+				<button type="button submit" class="btn">Пожертвовать</button>
+			</form>
+		</div>
+		<div class="donate-info">
+			<p>Сбербанк Онлайн:<br>
+			<strong>4276 3801 6592 1706</strong><br>
+			(Анна Аркадьевна К.)</p>
+		</div>
+	</div>
+{% endblock %}

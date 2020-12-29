@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+	{% load static %}
+	<div class="contact">
+		<div class="contact-map">
+			<a href="https://yandex.ru/maps/?from=api-maps&ll=37.905125%2C56.092743&mode=usermaps&origin=jsapi_2_1_77&um=constructor%3A1tkNHHqCaediCDST5WA1ZJw8zHoGj1gw&z=16"
+			   target="_blank"><img src="{% static 'img/maps/map1.png' %}" width="763" alt="Схема проезда">
+			</a>
+		</div>
+		<div class="contact-info">
+			<div class="contact-row">
+				<div class="contact-type">
+					Наш адрес:
+				</div>
+				<div class="contact-val">
+					<p>
+						456987, Московская обл, пос.Зеленоградский, ул.Набережная, д.2
+					</p>
+					<p>
+						От станции "Зеленоградская" Ярославской железной дороги выйти на восточную сторону, далее пройти по улицам: Шоссейная, Школьная.
+					</p>
+				</div>
+			</div>
+			<div class="contact-row">
+				<div class="contact-type">
+					Телефон:
+				</div>
+				<div class="contact-val">
+					+7(496)233-2117
+				</div>
+			</div>
+			<div class="contact-row">
+				<div class="contact-type">
+					email:
+				</div>
+				<div class="contact-val">
+					email@druzhok.ru
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

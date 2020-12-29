@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block content %}
+	{% load static %}
+	<div class="pet-detail">
+		<div class="pet-photo">
+			<img src="{{ pet.image.url }}" width="300" height="300" alt="Фото питомца">
+		</div>
+		<div class="pet-info">
+			<h1>
+				{{ pet.name }}, {{ pet.age }} лет
+			</h1>
+			<p>
+				{{ pet.description }}
+			</p>
+			<table class="pet-props">
+				<tr>
+					<td>Вид:</td>
+					{% if pet.pet_type == 'CAT' %}
+						<td>Кошка</td>
+					{% elif pet.pet_type == 'DOG' %}
+						<td>Собака</td>
+					{% endif %}
+				</tr>
+				<tr>
+					<td>Пол:</td>
+					{% if pet.gender == 'M' %}
+						<td>Мужской</td>
+					{% else %}
+						<td>Женский</td>
+					{% endif %}
+				</tr>
+				<tr>
+					<td>Порода:</td>
+					<td>{{ pet.breed.name|capfirst }}</td>
+				</tr>
+				<tr>
+					<td>Окрас:</td>
+					<td>{{ pet.color.name|capfirst }}</td>
+				</tr>
+				<tr>
+					<td>Дата поступления:</td>
+					<td>{{ pet.start_date|date:"d.m.Y" }}</td>
+				</tr>
+				<tr>
+					<td>Стерилизовано:</td>
+					{% if pet.sterilized %}
+						<td>Да</td>
+					{% else %}
+						<td>Нет</td>
+					{% endif %}
+				</tr>
+				<tr>
+					<td>Привито:</td>
+					{% if pet.vaccinated %}
+						<td>Да</td>
+					{% else %}
+						<td>Нет</td>
+					{% endif %}
+				</tr>
+				<tr>
+					<td>Чипировано:</td>
+					{% if pet.chipped %}
+						<td>Да</td>
+					{% else %}
+						<td>Нет</td>
+					{% endif %}
+				</tr>
+			</table>
+		</div>
+	</div>
+{% endblock %}

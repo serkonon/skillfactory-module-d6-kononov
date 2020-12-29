@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+	{% load static %}
+	<div class="pet-list">
+		<div class="filter">
+			<form class="gal-fltr" action="/" method="get">
+				{% csrf_token %}
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<label class="input-group-text" for="pet-type">Вид</label>
+					</div>
+					<select class="custom-select" id="pet-type" name="pet-type">
+						<option value="A" selected>Все</option>
+						<option value="CAT">Кошки</option>
+						<option value="DOG">Собаки</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<label class="input-group-text" for="pet-gender">Пол</label>
+					</div>
+					<select class="custom-select" id="pet-gender" name="pet-gender">
+						<option value="A" selected>Все</option>
+						<option value="F">Женский</option>
+						<option value="M">Мужской</option>
+					</select>
+				</div>
+				<button type="submit" class="btn btn-light">Применить</button>
+			</form>
+		</div>
+		<div class="galery">
+			{% for pet in object_list %}
+				<a class="gal-item" href="pet/{{ pet.id }}" style="background: no-repeat center / cover url('{{ pet.image.url }}')">
+					<div class="gal-item-lbl">{{ pet.name }}</div>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

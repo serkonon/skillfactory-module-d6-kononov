@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'strayhome',
+    'django_cleanup.apps.CleanupConfig', #Для очистки файлов, должно быть последним
 ]
 
 MIDDLEWARE = [
@@ -123,8 +125,18 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+MEDIA_URL = '/media/'  # URL для медии в шаблонах
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # путь до папки media, в общем случае она пуста в начале
 
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+STATIC_URL = '/static/' # URL для шаблонов
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Пустая папка, сюда будет собирать статику collectstatic
+# STATICFILES_DIRS = [
+#     os.path.join(PROJECT_ROOT, 'asset'), # Статика, специфичная для проекта
+# ]
+
+# # "Поисковики" статики. Первый ищет статику в STATICFILES_DIRS,
+# # второй в папках приложений.
+# STATICFILES_FINDERS = (
+#     'django.contrib.staticfiles.finders.FileSystemFinder',
+#     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+# )

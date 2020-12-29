@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+	<object model="strayhome.breed" pk="1">
+		<field name="name" type="CharField">лабрадор ретривер</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="2">
+		<field name="name" type="CharField">ротвейлер</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="3">
+		<field name="name" type="CharField">немецкая овчарка</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="4">
+		<field name="name" type="CharField">мальтийская болонка</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="5">
+		<field name="name" type="CharField">африканский чихуахуа</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="6">
+		<field name="name" type="CharField">неопределенная</field>
+		<field name="pet_type" type="CharField">CAT</field>
+	</object>
+	<object model="strayhome.breed" pk="7">
+		<field name="name" type="CharField">чихуахуа</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="8">
+		<field name="name" type="CharField">акита</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="9">
+		<field name="name" type="CharField">неопределенная</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="10">
+		<field name="name" type="CharField">волчья собака</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="11">
+		<field name="name" type="CharField">американский питбультерьер</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="12">
+		<field name="name" type="CharField">американская акита</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="13">
+		<field name="name" type="CharField">кавалер кинг чарльз спаниель</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="14">
+		<field name="name" type="CharField">сибирский хаски</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="15">
+		<field name="name" type="CharField">аляскинский маламут</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="16">
+		<field name="name" type="CharField">стаффордширский бультерьер</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="17">
+		<field name="name" type="CharField">далматинец</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="18">
+		<field name="name" type="CharField">большой швейцарский зенненхунд</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="19">
+		<field name="name" type="CharField">вельш-корги</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.breed" pk="20">
+		<field name="name" type="CharField">джек рассел терьер</field>
+		<field name="pet_type" type="CharField">DOG</field>
+	</object>
+	<object model="strayhome.color" pk="1">
+		<field name="name" type="CharField">черный</field>
+	</object>
+	<object model="strayhome.color" pk="2">
+		<field name="name" type="CharField">золотистый</field>
+	</object>
+	<object model="strayhome.color" pk="3">
+		<field name="name" type="CharField">классический</field>
+	</object>
+	<object model="strayhome.color" pk="4">
+		<field name="name" type="CharField">шоколадный</field>
+	</object>
+	<object model="strayhome.color" pk="5">
+		<field name="name" type="CharField">белый</field>
+	</object>
+	<object model="strayhome.color" pk="6">
+		<field name="name" type="CharField">черный с белым</field>
+	</object>
+	<object model="strayhome.color" pk="7">
+		<field name="name" type="CharField">коричнево-рыжий</field>
+	</object>
+	<object model="strayhome.color" pk="8">
+		<field name="name" type="CharField">как хаски классический</field>
+	</object>
+	<object model="strayhome.color" pk="9">
+		<field name="name" type="CharField">серый</field>
+	</object>
+	<object model="strayhome.color" pk="10">
+		<field name="name" type="CharField">серо-черно-белый</field>
+	</object>
+	<object model="strayhome.color" pk="11">
+		<field name="name" type="CharField">бело-черно-рыжий</field>
+	</object>
+	<object model="strayhome.color" pk="12">
+		<field name="name" type="CharField">рыже-белый</field>
+	</object>
+	<object model="strayhome.color" pk="13">
+		<field name="name" type="CharField">бежевый</field>
+	</object>
+	<object model="strayhome.color" pk="14">
+		<field name="name" type="CharField">черно-серый</field>
+	</object>
+	<object model="strayhome.color" pk="15">
+		<field name="name" type="CharField">бежевый-белый</field>
+	</object>
+	<object model="strayhome.color" pk="16">
+		<field name="name" type="CharField">дикая кошка</field>
+	</object>
+	<object model="strayhome.color" pk="17">
+		<field name="name" type="CharField">бело-черный</field>
+	</object>
+	<object model="strayhome.color" pk="18">
+		<field name="name" type="CharField">светло-бежевый</field>
+	</object>
+	<object model="strayhome.color" pk="19">
+		<field name="name" type="CharField">серый с полосами</field>
+	</object>
+	<object model="strayhome.color" pk="20">
+		<field name="name" type="CharField">белый с серым</field>
+	</object>
+	<object model="strayhome.color" pk="21">
+		<field name="name" type="CharField">бело-рыжий</field>
+	</object>
+	<object model="strayhome.color" pk="22">
+		<field name="name" type="CharField">пестрый</field>
+	</object>
+	<object model="strayhome.color" pk="23">
+		<field name="name" type="CharField">светло-серый</field>
+	</object>
+	<object model="strayhome.color" pk="24">
+		<field name="name" type="CharField">серый с белым</field>
+	</object>
+	<object model="strayhome.pet" pk="1">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">1</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">1</field>
+		<field name="image" type="FileField">img/pets/d00001.jpeg</field>
+		<field name="name" type="CharField">Черныш</field>
+		<field name="age" type="FloatField">5.0</field>
+		<field name="description" type="TextField">Здоров, ласковый</field>
+		<field name="start_date" type="DateField">2020-01-02</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="2">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">1</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">2</field>
+		<field name="image" type="FileField">img/pets/d00002.jpeg</field>
+		<field name="name" type="CharField">Джери</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Ласковая, любит людей, особенно детей</field>
+		<field name="start_date" type="DateField">2020-03-01</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="3">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">2</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00003.jpeg</field>
+		<field name="name" type="CharField">Макс</field>
+		<field name="age" type="FloatField">0.1</field>
+		<field name="description" type="TextField">Умный, веселый</field>
+		<field name="start_date" type="DateField">2020-11-05</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">False</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="4">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">3</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00004.jpeg</field>
+		<field name="name" type="CharField">Альф</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Храбрый, хитрый, умный</field>
+		<field name="start_date" type="DateField">2020-10-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="5">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">1</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">1</field>
+		<field name="image" type="FileField">img/pets/d00005.jpeg</field>
+		<field name="name" type="CharField">Боб</field>
+		<field name="age" type="FloatField">10.0</field>
+		<field name="description" type="TextField">Умный, верный, имеет острый нюх</field>
+		<field name="start_date" type="DateField">2020-05-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="6">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">1</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">4</field>
+		<field name="image" type="FileField">img/pets/d00006.jpeg</field>
+		<field name="name" type="CharField">Майк</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Веселый, позитвный, любит детей</field>
+		<field name="start_date" type="DateField">2020-03-11</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="7">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">4</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">5</field>
+		<field name="image" type="FileField">img/pets/d00007.jpeg</field>
+		<field name="name" type="CharField">Жужа</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Энергичная, веселая, любит играть в мяч</field>
+		<field name="start_date" type="DateField">2020-04-20</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="8">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">5</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00008.jpeg</field>
+		<field name="name" type="CharField">Джимми</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Веселый, энергичный, боевой</field>
+		<field name="start_date" type="DateField">2020-02-14</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="9">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">7</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00009.jpeg</field>
+		<field name="name" type="CharField">Тайсон</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Веселый, храбрый, любит подвижный игры</field>
+		<field name="start_date" type="DateField">2020-02-13</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="10">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">7</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">6</field>
+		<field name="image" type="FileField">img/pets/d00010.jpeg</field>
+		<field name="name" type="CharField">Дружок</field>
+		<field name="age" type="FloatField">0.2</field>
+		<field name="description" type="TextField">Веселый, люблпытный, любит игры в мяч</field>
+		<field name="start_date" type="DateField">2020-08-21</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="11">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">3</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00011.jpeg</field>
+		<field name="name" type="CharField">Франц</field>
+		<field name="age" type="FloatField">0.4</field>
+		<field name="description" type="TextField">Веселый, любознательный, аккуратный, любит плавать</field>
+		<field name="start_date" type="DateField">2020-10-12</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="12">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">8</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00012.jpeg</field>
+		<field name="name" type="CharField">Банзай</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Энергичный, неутомимый, хитрый, любит детей</field>
+		<field name="start_date" type="DateField">2020-11-01</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="13">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">9</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">7</field>
+		<field name="image" type="FileField">img/pets/d00013.jpeg</field>
+		<field name="name" type="CharField">Бобик</field>
+		<field name="age" type="FloatField">3.0</field>
+		<field name="description" type="TextField">Интеллектуальный, имеет острый нюх, исполнительный</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="14">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">9</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">8</field>
+		<field name="image" type="FileField">img/pets/d00014.jpeg</field>
+		<field name="name" type="CharField">Варфаламей</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Смелый, выносливый, быстрый</field>
+		<field name="start_date" type="DateField">2020-11-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="15">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">10</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/d00015.jpeg</field>
+		<field name="name" type="CharField">Серый</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Тихий, не лает, сильный</field>
+		<field name="start_date" type="DateField">2020-04-03</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="16">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">9</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/d00016.jpeg</field>
+		<field name="name" type="CharField">Белый</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Любит людей, хорошо дрессируется, глаза разного цвета</field>
+		<field name="start_date" type="DateField">2020-05-01</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="17">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">11</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">4</field>
+		<field name="image" type="FileField">img/pets/d00017.jpeg</field>
+		<field name="name" type="CharField">Боб</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Тихий, послушный, легко обучается</field>
+		<field name="start_date" type="DateField">2020-07-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="18">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">12</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">10</field>
+		<field name="image" type="FileField">img/pets/d00018.jpeg</field>
+		<field name="name" type="CharField">Макс</field>
+		<field name="age" type="FloatField">1.5</field>
+		<field name="description" type="TextField">Умный, решительный, ласковый, неутомимый</field>
+		<field name="start_date" type="DateField">2020-09-10</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="19">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">13</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">11</field>
+		<field name="image" type="FileField">img/pets/d00019.jpeg</field>
+		<field name="name" type="CharField">Тобби</field>
+		<field name="age" type="FloatField">1.2</field>
+		<field name="description" type="TextField">Веселый, энергичный, люьит играть с мячиком</field>
+		<field name="start_date" type="DateField">2020-10-10</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="20">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">13</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">12</field>
+		<field name="image" type="FileField">img/pets/d00020.jpeg</field>
+		<field name="name" type="CharField">Лика</field>
+		<field name="age" type="FloatField">0.6</field>
+		<field name="description" type="TextField">Ласковая, тихая, любит детей</field>
+		<field name="start_date" type="DateField">2020-11-03</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="21">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">14</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">5</field>
+		<field name="image" type="FileField">img/pets/d00021.jpeg</field>
+		<field name="name" type="CharField">Вася</field>
+		<field name="age" type="FloatField">1.3</field>
+		<field name="description" type="TextField">Энергичный, неутомимый, любит приносить палку, легко учится</field>
+		<field name="start_date" type="DateField">2020-04-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="22">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">15</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00022.jpeg</field>
+		<field name="name" type="CharField">Чарли</field>
+		<field name="age" type="FloatField">1.5</field>
+		<field name="description" type="TextField">Спокойный, имеет острый нюх, любит детей</field>
+		<field name="start_date" type="DateField">2020-04-30</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="23">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">3</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00023.jpeg</field>
+		<field name="name" type="CharField">Федя</field>
+		<field name="age" type="FloatField">1.6</field>
+		<field name="description" type="TextField">Сильный, любознательный, легко обучается</field>
+		<field name="start_date" type="DateField">2020-03-31</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="24">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">1</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">13</field>
+		<field name="image" type="FileField">img/pets/d00024.jpeg</field>
+		<field name="name" type="CharField">Люся</field>
+		<field name="age" type="FloatField">0.2</field>
+		<field name="description" type="TextField">Жизнерадостная, любопытная, любит детей</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="25">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">9</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">14</field>
+		<field name="image" type="FileField">img/pets/d00025.jpeg</field>
+		<field name="name" type="CharField">Банти</field>
+		<field name="age" type="FloatField">5.0</field>
+		<field name="description" type="TextField">Спокойная, жизнерадостная, любит ирать в мяч</field>
+		<field name="start_date" type="DateField">2020-10-12</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="26">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">16</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/d00026.jpeg</field>
+		<field name="name" type="CharField">Дампи</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Позитивная, любит игрыть в мяч</field>
+		<field name="start_date" type="DateField">2020-08-12</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="27">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">17</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00027.jpeg</field>
+		<field name="name" type="CharField">Риша</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Дружелюбная, жизнерадостная, любит плавать</field>
+		<field name="start_date" type="DateField">2020-06-09</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="28">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">18</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00028.jpeg</field>
+		<field name="name" type="CharField">Савва</field>
+		<field name="age" type="FloatField">2.5</field>
+		<field name="description" type="TextField">Спокойный, ласковый, любит детей</field>
+		<field name="start_date" type="DateField">2020-04-18</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="29">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">19</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">15</field>
+		<field name="image" type="FileField">img/pets/d00029.jpeg</field>
+		<field name="name" type="CharField">Марти</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Веселый, игривый, ласковый, любит детей</field>
+		<field name="start_date" type="DateField">2020-10-12</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="30">
+		<field name="pet_type" type="CharField">DOG</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">20</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">3</field>
+		<field name="image" type="FileField">img/pets/d00030.jpeg</field>
+		<field name="name" type="CharField">Боря</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Любознательный, энергичный ,любит играть в мяч</field>
+		<field name="start_date" type="DateField">2020-07-31</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="31">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00001.jpeg</field>
+		<field name="name" type="CharField">Муся</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Энергичная, любопытная, любит играть с лазерной указкой</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="32">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">13</field>
+		<field name="image" type="FileField">img/pets/c00002.jpeg</field>
+		<field name="name" type="CharField">Борис</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Спокойный, любит лежать на коленях</field>
+		<field name="start_date" type="DateField">2020-09-08</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="33">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00003.jpeg</field>
+		<field name="name" type="CharField">Маня</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Веселая, ласковая, любит детей</field>
+		<field name="start_date" type="DateField">2020-07-14</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="34">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00004.jpeg</field>
+		<field name="name" type="CharField">Буся</field>
+		<field name="age" type="FloatField">0.7</field>
+		<field name="description" type="TextField">Ласковая, жизнерадостная, любит купаться</field>
+		<field name="start_date" type="DateField">2020-08-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="35">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">17</field>
+		<field name="image" type="FileField">img/pets/c00005.jpeg</field>
+		<field name="name" type="CharField">Майя</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Веселая, ласковая, любит играть с лазерной указкой</field>
+		<field name="start_date" type="DateField">2020-08-18</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="36">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">18</field>
+		<field name="image" type="FileField">img/pets/c00006.jpeg</field>
+		<field name="name" type="CharField">Даша</field>
+		<field name="age" type="FloatField">0.5</field>
+		<field name="description" type="TextField">Веселая, любопытная</field>
+		<field name="start_date" type="DateField">2020-08-11</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="37">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">18</field>
+		<field name="image" type="FileField">img/pets/c00007.jpeg</field>
+		<field name="name" type="CharField">Маруся</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Жизнерадостная, любит детей</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="38">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">19</field>
+		<field name="image" type="FileField">img/pets/c00008.jpeg</field>
+		<field name="name" type="CharField">Василий</field>
+		<field name="age" type="FloatField">3.0</field>
+		<field name="description" type="TextField">Ласковый, спокойный, любит играть с игрушечной мышью</field>
+		<field name="start_date" type="DateField">2020-06-16</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="39">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00009.jpeg</field>
+		<field name="name" type="CharField">Матвей</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Позитивный, спокойный, любит смотреть телевизор</field>
+		<field name="start_date" type="DateField">2020-08-10</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="40">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">1</field>
+		<field name="image" type="FileField">img/pets/c00010.jpeg</field>
+		<field name="name" type="CharField">Даня</field>
+		<field name="age" type="FloatField">0.9</field>
+		<field name="description" type="TextField">Энергичный, любит играть с мячиком</field>
+		<field name="start_date" type="DateField">2020-08-10</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="41">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">17</field>
+		<field name="image" type="FileField">img/pets/c00011.jpeg</field>
+		<field name="name" type="CharField">Лера</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Позитивная, любопытная, любит смотреть в окно</field>
+		<field name="start_date" type="DateField">2020-09-28</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="42">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/c00012.jpeg</field>
+		<field name="name" type="CharField">Яков</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Позитивный, созерцательный, любит смотреть телевизор</field>
+		<field name="start_date" type="DateField">2020-09-14</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="43">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00013.jpeg</field>
+		<field name="name" type="CharField">Стася</field>
+		<field name="age" type="FloatField">0.8</field>
+		<field name="description" type="TextField">Веселая, игривая, любит детей</field>
+		<field name="start_date" type="DateField">2020-07-15</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="44">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">20</field>
+		<field name="image" type="FileField">img/pets/c00014.jpeg</field>
+		<field name="name" type="CharField">Веня</field>
+		<field name="age" type="FloatField">1.6</field>
+		<field name="description" type="TextField">Ласковый, созертательный, любит спать</field>
+		<field name="start_date" type="DateField">2020-09-14</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="45">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">15</field>
+		<field name="image" type="FileField">img/pets/c00015.jpeg</field>
+		<field name="name" type="CharField">Маркиз</field>
+		<field name="age" type="FloatField">1.3</field>
+		<field name="description" type="TextField">Добродушный, ленивый, любит спать</field>
+		<field name="start_date" type="DateField">2020-09-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="46">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">1</field>
+		<field name="image" type="FileField">img/pets/c00016.jpeg</field>
+		<field name="name" type="CharField">Черный</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Хитрый,  игривый, любит охотиться</field>
+		<field name="start_date" type="DateField">2020-08-10</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="47">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">20</field>
+		<field name="image" type="FileField">img/pets/c00017.jpeg</field>
+		<field name="name" type="CharField">Рая</field>
+		<field name="age" type="FloatField">0.7</field>
+		<field name="description" type="TextField">Любознательная, послушная, любит детей</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">False</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="48">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">21</field>
+		<field name="image" type="FileField">img/pets/c00018.jpeg</field>
+		<field name="name" type="CharField">Степан</field>
+		<field name="age" type="FloatField">1.3</field>
+		<field name="description" type="TextField">Игривый, охотник, любит прятаться</field>
+		<field name="start_date" type="DateField">2020-10-14</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="49">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">18</field>
+		<field name="image" type="FileField">img/pets/c00019.jpeg</field>
+		<field name="name" type="CharField">Зоя</field>
+		<field name="age" type="FloatField">0.7</field>
+		<field name="description" type="TextField">Жизнерадостная, любопытная</field>
+		<field name="start_date" type="DateField">2020-11-01</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="50">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">22</field>
+		<field name="image" type="FileField">img/pets/c00020.jpeg</field>
+		<field name="name" type="CharField">Мара</field>
+		<field name="age" type="FloatField">0.9</field>
+		<field name="description" type="TextField">Любопытная, игривая, любит играть с лазерной указкой</field>
+		<field name="start_date" type="DateField">2020-10-12</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="51">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">23</field>
+		<field name="image" type="FileField">img/pets/c00021.jpeg</field>
+		<field name="name" type="CharField">Мася</field>
+		<field name="age" type="FloatField">1.4</field>
+		<field name="description" type="TextField">Веселая, послушная, любит играть в мячик</field>
+		<field name="start_date" type="DateField">2020-09-15</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="52">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">18</field>
+		<field name="image" type="FileField">img/pets/c00022.jpeg</field>
+		<field name="name" type="CharField">Руслан</field>
+		<field name="age" type="FloatField">1.2</field>
+		<field name="description" type="TextField">Спокойный, созерцательный, любит спать</field>
+		<field name="start_date" type="DateField">2020-08-23</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="53">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/c00023.jpeg</field>
+		<field name="name" type="CharField">Филимон</field>
+		<field name="age" type="FloatField">1.4</field>
+		<field name="description" type="TextField">Позитивный, послушный, ласковый</field>
+		<field name="start_date" type="DateField">2020-08-25</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="54">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">12</field>
+		<field name="image" type="FileField">img/pets/c00024.jpeg</field>
+		<field name="name" type="CharField">Люся</field>
+		<field name="age" type="FloatField">0.6</field>
+		<field name="description" type="TextField">Любознательная, ласковая</field>
+		<field name="start_date" type="DateField">2020-09-02</field>
+		<field name="sterilized" type="BooleanField">False</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="55">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">6</field>
+		<field name="image" type="FileField">img/pets/c00025.jpeg</field>
+		<field name="name" type="CharField">Тома</field>
+		<field name="age" type="FloatField">1.4</field>
+		<field name="description" type="TextField">Ласковая, позитивная, любит детей</field>
+		<field name="start_date" type="DateField">2020-09-04</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="56">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">19</field>
+		<field name="image" type="FileField">img/pets/c00026.jpeg</field>
+		<field name="name" type="CharField">Марик</field>
+		<field name="age" type="FloatField">1.0</field>
+		<field name="description" type="TextField">Хитрый, энергичный, позитивный</field>
+		<field name="start_date" type="DateField">2020-10-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="57">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">12</field>
+		<field name="image" type="FileField">img/pets/c00027.jpeg</field>
+		<field name="name" type="CharField">Радик</field>
+		<field name="age" type="FloatField">1.5</field>
+		<field name="description" type="TextField">Веселый, энергичный, охотник</field>
+		<field name="start_date" type="DateField">2020-10-23</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">False</field>
+	</object>
+	<object model="strayhome.pet" pk="58">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">9</field>
+		<field name="image" type="FileField">img/pets/c00028.jpeg</field>
+		<field name="name" type="CharField">Вениамин</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Ласковый, игривый, любит детей</field>
+		<field name="start_date" type="DateField">2020-08-17</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="59">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">M</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">16</field>
+		<field name="image" type="FileField">img/pets/c00029.jpeg</field>
+		<field name="name" type="CharField">Виктор</field>
+		<field name="age" type="FloatField">1.5</field>
+		<field name="description" type="TextField">Ласковый, позитивный, любит детей</field>
+		<field name="start_date" type="DateField">2020-09-21</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+	<object model="strayhome.pet" pk="60">
+		<field name="pet_type" type="CharField">CAT</field>
+		<field name="gender" type="CharField">F</field>
+		<field name="breed" rel="ManyToOneRel" to="strayhome.breed">6</field>
+		<field name="color" rel="ManyToOneRel" to="strayhome.color">24</field>
+		<field name="image" type="FileField">img/pets/c00030.jpeg</field>
+		<field name="name" type="CharField">Ульяна</field>
+		<field name="age" type="FloatField">2.0</field>
+		<field name="description" type="TextField">Ласковая, домашняя, любит спать</field>
+		<field name="start_date" type="DateField">2020-08-22</field>
+		<field name="sterilized" type="BooleanField">True</field>
+		<field name="vaccinated" type="BooleanField">True</field>
+		<field name="chipped" type="BooleanField">True</field>
+	</object>
+</django-objects>
