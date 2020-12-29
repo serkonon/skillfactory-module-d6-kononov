@@ -348,7 +348,7 @@ main {
 .tech-row {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 600px;
     margin: 16px auto 0;
 }
 
